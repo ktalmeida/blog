@@ -5,6 +5,29 @@ theme = "hyde"
 enableEmoji = true
 
 [params]
-  themeColor = "theme-base-0c"
   description = 'A simple personal blog with the adventures of a developer born in Rio.'
   layoutReverse = true
+  [networks]
+    [twitter]
+      name = "twitter"
+    [facebook]
+      name = "facebook"
+    [github]
+      name = "github"
+
+
+[[menu.main]]
+    name = "posts"
+    weight = 1
+    url = "/posts/"
+
+[[menu.main]]
+    name = "random"
+    weight = 2
+    url = "/random/"
+
+[[menu.main]]
+    identifier = "git"
+    post = "<i class='fa fa-github'></i>"
+    weight = 100
+    url = "http://github.com/ktalmeida"
