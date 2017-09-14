@@ -7,14 +7,6 @@ enableEmoji = true
 [params]
   description = 'A simple personal blog with the adventures of a developer born in Rio.'
   layoutReverse = true
-  [networks]
-    [twitter]
-      name = "twitter"
-    [facebook]
-      name = "facebook"
-    [github]
-      name = "github"
-
 
 [[menu.main]]
     name = "posts"
