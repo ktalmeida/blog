@@ -1,0 +1,10 @@
+baseURL = "http://kayan.my.to/"
+languageCode = "en-us"
+title = "Kayan"
+theme = "hyde"
+enableEmoji = true
+
+[params]
+  themeColor = "theme-base-0c"
+  description = 'A simple personal blog with the adventures of a developer born in Rio. :smile:'
+  layoutReverse = true
