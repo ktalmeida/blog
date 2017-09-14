@@ -6,5 +6,5 @@ enableEmoji = true
 
 [params]
   themeColor = "theme-base-0c"
-  description = 'A simple personal blog with the adventures of a developer born in Rio. :smile:'
+  description = 'A simple personal blog with the adventures of a developer born in Rio.'
   layoutReverse = true
